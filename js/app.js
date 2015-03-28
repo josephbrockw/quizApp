@@ -14,7 +14,7 @@ $(document).ready(function(){
 		
 			var selector = listQ[whichQ];
 			//$('.question h1').text(questions.selector[0]);
-			console.log(typeof selector);
+			console.log(questions.selector[0]);
 			whichQ++;
 
 	}
