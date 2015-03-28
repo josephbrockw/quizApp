@@ -11,6 +11,11 @@ $(document).ready(function(){
 	var whichQ = 0;
 
 	function loadQ() {
+		
+			var selector = listQ[whichQ];
+			//$('.question h1').text(questions.selector[0]);
+			console.log(typeof selector);
+			whichQ++;
 
 	}
 
@@ -19,7 +24,8 @@ $(document).ready(function(){
 		// Start Quiz
 		$('.button').hide();
 		$('.answerSet').show();
-		$('.question h1').text(questions.points[0]);
+		//$('.question h1').text(questions.points[0]);
+		loadQ();
 		console.log('Yes');
 	});
 
