@@ -69,6 +69,7 @@ $(document).ready(function(){
 			$('.answer2').append(questions[whichQ][2]);
 			$('.answer3').append(questions[whichQ][3]);
 			$('.answer4').append(questions[whichQ][4]);
+			$('input:radio').attr('checked', false);
 	};	
 
 	function calc() {
